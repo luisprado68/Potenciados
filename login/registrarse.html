@@ -1,0 +1,29 @@
+
+	<div class="caja1">
+		<form action="./registro.php" method="POST" enctype="multipart/form-data">
+			<a href="./index.php"><img src="./imagenes/favicon.ico"></a>
+			<input type="text" name="nombre" placeholder="Nombre de Usuario..." required >
+		
+			<input type="email" name="correo" placeholder="correo@example.com" required>
+			
+			<input type="password" name="password" placeholder="************" required>
+			
+			<input type="number" min="40" max="200" name="peso" placeholder="75" id="peso" required><label for="peso">Kg (Peso)</label>
+			
+			<input type="number" min="100" max="250" name="altura" placeholder="170" id="altura" required><label for="altura">cm (Altura)</label>
+			
+			<input type="date" name="edad" id="años" required><label for="años">Fecha de nacimiento</label>
+		
+			<select name="metodo_entrenamiento" required>
+				<option value="0">Seleccion un método de entrenamiento</option>
+				<option value="1">Bajar de peso</option>
+				<option value="2">Mantener el mismo estado</option>
+				<option value="3">Aumentar masa muscular y peso</option>
+			</select>
+			<input type="submit" name="inicio" value="REGISTRARME" id="registro">
+		</div>
+		</form>
+	</div>
+	
+	
+
