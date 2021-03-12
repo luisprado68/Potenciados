@@ -1,0 +1,219 @@
+
+ .caja1{
+	width: 100%;
+	height: 100vh;
+	background: url(../imagenes/img-8.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background-position: center;
+	padding-top: 8%;
+	
+
+}
+.caja1 form{
+	width: 80%;
+	height: 80%;
+	background-color: white;
+	/* padding: 30px 100px; */
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	font-family: 'Open Sans-R';
+}
+
+.texto{
+	width: 90%;
+}
+.texto .politica{
+	 text-align: justify;
+	 font-size: 0.8em;
+}
+
+input[type='email']{
+	margin-top: -40px;
+}
+input[type='text'],
+input[type='email'],
+input[type='text'],
+textarea,
+select{
+	width: 80%;
+	height: 36px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 16px;
+	font-family: 'Open Sans-R';
+	background: lightgrey;
+	border-radius: 4px;
+	padding: 12px;
+}
+textarea{
+  /* resize: vertical;
+  max-height:200px; 
+  min-height:50px;
+  max-width:300px;*/
+  height: 120px; 
+}
+
+.contact{
+	width: 50%;
+	position: absolute;
+	
+}
+.politic{
+	width: 50%;
+	position: absolute;
+	left: 50%;
+}
+.enviar{
+	width: 60%;
+	position: absolute;
+	
+	bottom: 10%;
+	left: 20%;
+	
+}
+.check{
+	width:100%;
+	height:15%;
+	
+}
+.check input[type="checkbox"] {
+	display: inline;
+	cursor: pointer;	
+}
+.check h5{
+	text-decoration:underline;
+	color: #2ACC2A;
+	display: inline;
+}
+
+input[type="submit"]{
+	width: 60%;
+	display: inline-block;
+	padding: 15px;
+	background: #3E85ED;
+	color: #FFF;
+	border: 2px solid #F2F2F2;
+	border-radius: 1px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: 'Open Sans', Sans-Serif;
+	font-size: 16px;
+	margin: 20px 0px;
+	position: relative;
+	top: 30px;
+}
+
+.privacidad{
+	
+	color: black;
+	background: none;
+	border: none;
+	text-align: none;
+}
+.caja1  a span:hover{
+	color:#ccc;
+}
+
+.caja1 input[type="submit"]:hover,
+
+.caja1 a:hover{
+	opacity: .8;
+}
+
+.caja1 h5,h3 p{
+	font-family: 'Open Sans-R';
+	font-size: 1em;
+	margin-bottom: 12px;
+}
+
+.caja1 .iconos a{
+	background: white;
+	width: 25%;
+	display: inline;
+	padding: 0;
+	border: none;
+}
+
+.caja1 form .iconos img{
+	width: 14%;
+}
+.caja1 p{
+	color: black;
+	text-shadow: none;
+}
+
+@media (max-width: 575.98px) {
+	.caja1{
+		height: 850px;
+	}
+
+	.caja1 form{
+		height: 114%;
+	
+	}
+    .contact{
+		width: 100%;
+		display: block;
+		position: static;
+	}
+	.politic{
+		width: 100%;
+		
+		display: block;
+		position: static;
+	}
+	.texto  {
+		width: 100%;
+		text-align: center;
+		font-size: 0.9em;
+		padding: 10%;
+		position: static;
+	}
+	.politic a{
+		width: 80%;
+	}
+	.check input[type="checkbox"]{
+		display: inline;
+		top: 0;
+		right: 100px;
+		left: 0;
+		bottom: 0;
+	}
+	.enviar{
+		position: static;
+		width: 100%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.caja1 h1{
+		font-size: 3em;
+		
+	}
+	.caja1 h2{
+		font-size: 1.6em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.caja1 h1{
+		font-size: 4em;
+		
+	}
+	.caja1 h2{
+		font-size: 1.8em;
+	}
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}

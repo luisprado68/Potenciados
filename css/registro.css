@@ -1,0 +1,137 @@
+.caja1{
+	width: 100%;
+	height: 100vh;
+	background: url(../imagenes/img-8.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background-position: center;
+	padding-top: 0.8%;
+	
+
+}
+form{
+	margin: 20px 30.5%;
+	width: 40%;
+	height: 92%;
+	background-color: white;
+	padding: 0px 100px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+form img{
+	width: 50%;
+}
+input[type='email']{
+	margin-top: 10px;
+}
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='number'],
+input[type='date'],
+select{
+	width: 100%;
+	height: 36px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 16px;
+	font-family: 'Open Sans-R';
+	display: block;
+	
+}
+input[type='number']{
+	width: 20%;
+	text-align: center;
+	margin: 0px 40%;
+}
+input[type='date']{
+	width: 50%;
+	text-align: center;
+	margin: 0px 25%;
+}
+input[type="submit"],
+span a{
+	width: 90%;
+	display: inline-block;
+	padding: 15px;
+	background: #3E85ED;
+	color: #FFF;
+	border: 2px solid #F2F2F2;
+	border-radius: 1px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: 'Open Sans', Sans-Serif;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+input[type="submit"]:hover,
+a:hover{
+	opacity: .8;
+}
+span a{
+	background: none;
+}
+span a{
+	text-decoration: none;
+	background: #2ACC2A;
+}
+p{
+	font-family: 'Open Sans-R';
+	margin-bottom: 12px;
+}
+
+
+@media (max-width: 575.98px) {
+
+	body{
+		height: 100%;
+	}
+	form{
+		margin: 9%;
+		padding: 0 10%;
+		width: 80%;
+		height: 90%;
+		position: static;
+		
+	}
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	form{
+		margin: 2% 21%;
+		padding: 0 10%;
+		width: 50%;
+		height: 90%;
+		position: static;
+		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	form{
+		margin: 2% 28%;
+		padding: 0 10%;
+		width: 40%;
+		height: 90%;
+		position: static;
+		
+	}
+}
+@media (min-width: 1200px) {
+
+	form{
+		margin: 2% 28%;
+		padding: 0 10%;
+		width: 40%;
+		height: 90%;
+		position: static;
+		
+	}
+}

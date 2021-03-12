@@ -1,0 +1,56 @@
+table{
+    width: 60%;
+    
+    border-collapse: collapse;
+    background-color: white;
+    color: white;
+    border-color: white;
+    margin-bottom: 30px;
+    /* position: relative;
+    left: 20%; */
+    margin-left: 20%;
+}
+thead{
+    background-color: #3E85ED;
+    color: white;
+}
+table .sub {
+    background-color: #2ACC2A;
+    border-color: none;
+}
+table .demas{
+    background-color: #4D4D4D;
+}
+table .demas2{
+    background-color: #c81202;
+}
+ td,  th{
+    padding: 5px 10px;
+    
+}
+@media (max-width: 575.98px) {
+    table {
+            width: 100%;
+            position: relative;
+            margin-top: 20px;
+            margin-left: 0px;
+            padding: 0 30px;
+        }  
+}
+/* @media (max-width: 575.98px) {
+    form{
+        width: 507px;  
+    } 
+}
+@media (min-width: 576px) and (max-width: 767.98px) { form {width: 510px;} }
+@media (min-width: 768px) and (max-width: 991.98px) { form {width: 690px;} }
+@media (min-width: 992px) and (max-width: 1199.98px) { form {width: 930px;}} */
+
+/* @media (min-width: 576px) and (max-width: 767.98px) {
+     table {
+        position: relative;
+        right: 1%;
+        } 
+    } */
+
+    

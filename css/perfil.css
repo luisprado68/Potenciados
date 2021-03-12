@@ -1,0 +1,271 @@
+
+.contenedor{
+	width: 100%;
+	height: 100vh;
+	background: url(../imagenes/img-8.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background-position: center;
+	padding-top: 8%;
+	/* padding-left: 32%; */
+	}
+
+.perfil {
+	
+	margin: 20px 30%;
+	width: 40%;
+	height: 80%;
+	background-color: #3E85ED;
+	padding: 30px 50px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	
+}
+
+.perfil h2, p{
+	color: white;
+	font-size: 1.1rem;
+}
+.perfil-botones .boton_personalizado{
+
+	width: 19%;
+	display: inline-block;
+	padding: 15px;
+	background: black;
+	color: #FFF;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: 'Open Sans', Sans-Serif;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 16px;
+	
+  }
+  .boton_personalizado:hover {
+	background-color: gray; /* Green */
+	color: white;
+  }
+
+/*Editar---------------------------*/
+  .editar form{
+	margin: 20px auto;
+	width: 40%;
+	height: 70%;
+	background-color: white;
+	padding: 2% 9% 0%;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+input[type='email']{
+	margin-top: -40px;
+}
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='number'],
+input[type='date'],
+select{
+	width: 85%;
+	height: 36px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 16px;
+	font-family: 'Open Sans-R';
+	background-color: white;
+	/* border-radius: 5px; */
+}
+input[type='number']{
+	width: 42%;
+	text-align: center;
+}
+input[type='date']{
+	width: 85%;
+	text-align: center;
+}
+input[type="submit"],
+.editar a{
+	width: 90%;
+	display: inline-block;
+	padding: 15px;
+	background: #2ACC2A;
+	color: #FFF;
+	border: 1px solid #F2F2F2;
+	border-radius: 1px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: 'Open Sans', Sans-Serif;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.editar input[type="submit"]:hover,
+.editar a:hover{
+	opacity: .8;
+}
+.editar a{
+	text-decoration: none;
+	background: black;
+}
+
+/*---------------------*/
+@media (max-width: 575.98px) {
+	
+	.editar form{
+		
+		width: 70%;
+		padding: 3% 10% 0%;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.editar form{
+		
+		width: 50%;
+		padding: 3% 8% 0%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.editar form{
+		
+		width: 40%;
+		padding: 3% 8% 0%;
+	}
+}
+
+/*-------------editar*/
+
+.cambiar{
+	margin: 20px auto;
+	width: 40%;
+	height: 70%;
+	background-color: white;
+	padding: 5.2% 9%;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+.cambiar input[type='password']{
+	background-color: #D3D3D3;
+}
+
+.cambiar a{
+	width: 90%;
+	display: inline-block;
+	padding: 15px;
+	background: black;
+	color: #FFF;
+	border: 1px solid #F2F2F2;
+	border-radius: 1px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: 'Open Sans', Sans-Serif;
+	font-size: 16px;
+	margin-bottom: 16px;
+	text-decoration: none;
+}
+
+/*responsive cambiar*/
+@media (max-width: 575.98px) {
+	
+	.cambiar {
+		
+		width: 70%;
+		padding: 3% 10% 0%;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.cambiar {
+		
+		width: 50%;
+		padding: 12.2% 8%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.cambiar {
+		
+		width: 40%;
+		padding: 8% 8%;
+	}
+}
+
+/*general el perfil*/
+@media (max-width: 575.98px) {
+
+	.contenedor{
+		
+		height: 100%;
+	}
+	.perfil{
+		width: 80%;
+		padding: 10% 2%;
+		margin:  0 10%;
+	}
+	.perfil-botones .boton_personalizado {
+		width: 80%;
+		display: block;
+		margin:  2% 10%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.perfil{
+		width: 60%;
+		padding: 10% 2%;
+		margin:  5% 19%;
+	}
+	.perfil-botones .boton_personalizado {
+		width: 33%;
+		display: inline;
+		margin:  2% 0%;
+
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.perfil{
+		width: 50%;
+		padding: 10% 2%;
+		margin:  3.2% 25%;
+	}
+	
+	.perfil-botones  .boton_personalizado {
+		width: 33%;
+		display: inline;
+		margin:  0% 0%;
+
+	}
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	.perfil{
+		width: 50%;
+		padding: 10% 2%;
+		margin:  3.2% 25%;
+	}
+	
+	.perfil-botones  .boton_personalizado {
+		width: 33%;
+		display: inline;
+		margin:  0% 0%;
+
+	}
+}

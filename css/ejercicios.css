@@ -1,0 +1,177 @@
+.midieta,
+section{
+	max-width: 100%;
+	
+	font-family: 'Open Sans';
+}
+.img-6{
+	width: 100%;
+	height: 100vh;
+	background: url(../imagenes/img-6.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background-position: center;
+}
+.img-7{ 
+	width: 100%;
+	height: 90vh;
+	background: url(../imagenes/img-7.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background-position: center;
+}
+.tipos-ejercicios{
+	width: 100%;
+	height: 90vh;
+	position: relative;
+	background: black;
+}
+.tipos-dietas,
+.caja1,
+.caja2,
+.caja3, a{
+	text-decoration: none;
+}
+.caja1{
+	width: 33.3333333333%;
+	height: 100%;
+	position: absolute;
+	left:0%;
+	bottom:0;
+	display: inline-block;
+	background:url(../imagenes/img-16.jpg) no-repeat 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+	
+}
+.caja1:hover{
+	opacity: 1;
+}
+.caja2{
+	width: 33.3333333333%;
+	height: 100%;
+	position: absolute;
+	left:33.3333333333%;
+	bottom:0;
+	display: inline-block;
+	background:url(../imagenes/img-18.jpg) no-repeat 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+	
+}
+.caja2:hover{
+	opacity: 1;
+}
+.caja3{
+	width: 33.3333333333%;
+	height: 100%;
+	position: absolute;
+	left:66.6666666666%;
+	bottom:0;
+	display: inline-block;
+	background:url(../imagenes/img-17.jpg) no-repeat 90%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+
+}
+.caja3:hover{
+	opacity: 1;
+}
+
+h3,
+p{
+	text-align: center;
+}
+h3{
+	font-size: 4em;
+	padding-top: 10rem!important;
+	color: white;
+	text-shadow: 2px 5px 23px black;
+}
+h2{
+	font-size: 3em;
+	padding-top: 60%;
+	color: white;
+	text-shadow: 2px 5px 23px black;
+}
+p{
+	margin: 15px auto 0 auto;
+	width: 80%;
+	font-size: 1.4em;
+	color: #eaeaea;
+	text-shadow: 2px 5px 23px black;
+}
+
+/*---------*/
+@media (max-width: 575.98px) {
+
+	#btn-menu:checked ~ .midieta section{
+        
+		position: relative;
+		top: 93vh;
+    }
+
+	h3{
+		font-size: 2em;
+		
+	}
+	p{
+		font-size: 1.3em;
+	}
+
+
+	h2{
+		font-size: 2em;
+		padding-top: 80px;
+	}
+	.caja1{
+		width: 100%;
+		height: 33.3333333333%;
+		position: static;
+		display: block;
+	}
+	.caja2{
+		width: 100%;
+		height: 33.3333333333%;
+		position: static;
+		display: block;
+	}
+	.caja3{
+		width: 100%;
+		height: 33.3333333333%;
+		position: static;
+		display: block;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	#btn-menu:checked ~ .midieta section{
+        
+		position: relative;
+		top: 93vh;
+    }
+
+	h3{
+		font-size: 3em;
+		
+	}
+	p{
+		font-size: 1.6em;
+	}
+	h2{
+		font-size: 2.3em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	h3{
+		font-size: 4em;
+		
+	}
+	p{
+		font-size: 1.8em;
+	}
+ }

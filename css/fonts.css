@@ -1,0 +1,10 @@
+/* Declaración de Fuentes */
+
+@font-face{
+	font-family: 'Open Sans';
+	src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face{
+	font-family: 'Open Sans-R';
+	src: url(../fonts/OpenSans-Regular.ttf);
+}

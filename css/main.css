@@ -1,0 +1,104 @@
+.contenedor,
+section{
+	max-width: 100%;
+	width: 100%;
+	font-family: 'Open Sans';
+}
+.img-1{
+	width: 100%;
+	height: 100vh;
+	background: url(../imagenes/img-1.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background-position: center;
+}
+.img-4{ 
+	width: 100%;
+	height: 100vh;
+	background: url(../imagenes/img-4.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	background-position: center;
+}
+h3,
+p{
+	text-align: center;
+}
+h3{
+	font-size: 4em;
+	padding-top: 10rem!important;
+	color: white;
+	text-shadow: 2px 5px 23px black;
+}
+p{
+	margin: 15px auto 0 auto;
+	width: 80%;
+	font-size: 1.8em;
+	color: #eaeaea;
+	text-shadow: 2px 5px 23px black;
+}
+.img-2-3{
+	max-width: 100%;
+	max-height: 70vh;
+}
+.img-2,
+.img-3{
+	width: 49.6%;
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+}
+.img-2{
+	background: url(../imagenes/img-2.jpg) no-repeat 100% 100%;
+}
+.img-3{
+	background: url(../imagenes/img-3.jpg) no-repeat 100% 100%;
+}
+
+/*------------------------------*/
+
+@media (max-width: 575.98px) {
+	#btn-menu:checked ~ .contenedor {
+        
+		position: relative;
+		top: 93vh;
+    }
+    h3{
+		font-size: 2em;
+		
+	}
+	p{
+		font-size: 1.3em;
+	}
+
+	
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	#btn-menu:checked ~ .contenedor {
+        
+		position: relative;
+		top: 93vh;
+    }
+	
+	h3{
+		font-size: 3em;
+		
+	}
+	p{
+		font-size: 1.6em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	h3{
+		font-size: 4em;
+		
+	}
+	p{
+		font-size: 1.8em;
+	}
+ }
+
+ 

@@ -1,0 +1,28 @@
+/* Reglas Generales */
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 16px; /*  ---> 1em   */
+}
+body{
+	background: black;
+}
+.li-logo{
+	padding-top: 3px;
+}
+.logo{
+	width: 120px;
+}
+body::-webkit-scrollbar {
+	width: 7px;
+	background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #3E85ED;
+	border-radius: 5px;
+}

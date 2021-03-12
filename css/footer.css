@@ -1,0 +1,262 @@
+footer{
+	max-width: 100%;
+	width: 100%;
+	height: 200px;
+	background: #4D4D4D;
+}
+
+/* CAJA CENTRAL */
+.caja1-f{
+	width: 100%;
+	height: 100%;
+	/* padding-top: 23px; */
+	font-family: 'Open Sans-R';
+	position: relative;
+}
+/* SUBCAJAS */
+.sub-caja1-f{
+	width: 25%;
+	height: 100%;
+	/* position: absolute; */
+	/* left:25%; */
+	/* bottom:0; */
+	/* display: inline-block; */
+}
+
+/* SUBCAJA 1 */
+.sub-caja1-f .links{
+	width: 77%;
+	text-decoration: none;
+	position: relative;
+	top: 13%;
+	left: 11.5%;
+
+	
+}
+.sub-caja1-f .links h5 a{
+	/* 1 em = 16px*/
+	font-size: 0.8em;
+	/* 1.4em = 24px aprox*/
+	text-decoration: none;
+	color:black;
+}
+.sub-caja1-f .links h5 a:hover{
+	color: #ccc;
+}
+.sub-caja1-f .links h5 a span{
+	/* 1.4 respecto del padre*/
+	/* 1em (padre) = 24px*/
+	/* 1.4em (hijo) = 34px; aprox*/
+	font-size: 1.4em;
+	margin: 0 8px 15px 0;
+}
+.caja1-f .sub-caja2-f{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	left:25%;
+	bottom:0;
+	display: inline-block;
+}	
+.texto-sub-caja2 {
+	width: 77%;
+	position: relative;
+	top:13%; 
+	left:11.5%; 
+}
+.texto-sub-caja2  a{
+	color:black;
+	text-decoration: none;
+	font-size: 0.8em;
+	margin: 0 8px 15px 0;
+}
+.texto-sub-caja2 a:hover{
+	color: #ccc;
+}
+
+
+.caja1-f .sub-caja3-f{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	left:50%;
+	bottom:0%;
+}
+.texto-sub-caja3 {
+	width: 77%;
+	position: relative;
+	top:13%; 
+	left:11.5%; 
+}
+.texto-sub-caja3  a{
+	color:black;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+.texto-sub-caja3  a:hover{
+	color: #ccc;
+}	
+.caja1-f .sub-caja4-f{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	left:75%;
+	bottom:0%;
+}
+.texto-sub-caja4 {
+	width: 77%;
+	position: relative;
+	top:13%; 
+	left:11.5%; 
+}
+.texto-sub-caja4  a{
+	color:black;
+	text-decoration: none;
+	font-size: 0.8em;	
+}
+.texto-sub-caja4  a:hover{
+	color: #ccc;
+}	
+.tiitle-footer{
+	color: #fff;
+	font-family: 'Open Sans';
+	
+}
+/* Color RRSS */
+.facebook-color{
+	color: #3C5A9A;
+}
+.instagram-color{
+	background: linear-gradient(45deg, rgba(239,195,1,1) 0%, rgba(239,195,1,1) 8%, rgba(246,41,12,1) 37%, rgba(242,25,5,1) 56%, rgba(144,80,108,1) 75%, rgba(156,62,132,1) 88%, rgba(156,62,132,1) 100%);
+	-webkit-background-clip: text;
+	color: transparent;  
+}
+.twitter-color{
+	color: #1DA1F2;
+}
+.gplus-color{
+	color: #dc4b3e;
+}
+.gmail-color{
+	color: blue;
+}
+.desarrollo{
+	background: #000000 ;
+	text-align: center;
+	padding: 10px;
+}
+.desarrollo a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 0.9em;
+}
+/*---------------------*/
+
+@media (max-width: 575.98px) {
+
+	#btn-menu:checked ~ footer {
+        
+		position: relative;
+		top: 93vh;
+    }
+	
+    .caja1-f .sub-caja1-f{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		
+	}
+	.caja1-f .sub-caja2-f{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		background: #4D4D4D;
+	}
+	.caja1-f .sub-caja3-f{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		background: #4D4D4D;
+	}
+	.caja1-f .sub-caja4-f{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		background: #4D4D4D;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	#btn-menu:checked ~ footer {
+        
+		position: relative;
+		top: 93vh;
+    }
+	
+	.caja1-f .sub-caja1-f{
+		width: 50%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		float: left;
+		background: #4D4D4D;
+		
+	}
+
+	.caja1-f .sub-caja2-f{
+		width: 50%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		float: left;
+		background: #4D4D4D;
+	}
+
+	.caja1-f .sub-caja3-f{
+		width: 50%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		float: left;
+		/*con clear clear: both; both rompemos el float*/
+		background: #4D4D4D;
+		
+	}
+	.caja1-f .sub-caja4-f{
+		width: 50%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		position: static;
+		float: right;
+		background: #4D4D4D;
+	}
+	.desarrollo {
+		padding:0;
+	}
+	.desarrollo a{
+		margin-top: 20px;
+	}
+}
+
