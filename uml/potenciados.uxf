@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>140</x>
+      <y>154</y>
+      <w>119</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Sistema: Proyecto Final
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>175</x>
+      <y>399</y>
+      <w>147</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>REGISTRADOS
+--
+id_registrado
+nombre
+correo
+pass
+peso
+altura
+edad
+metodo_entrenamiento</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>462</x>
+      <y>399</y>
+      <w>147</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>USUARIOS
+--
+id_registrado
+nombre
+correo
+pass
+peso
+altura
+edad
+metodo_entenamiento
+fecha_sesion</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>392</y>
+      <w>161</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+Una vez que valide el mail</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>126</x>
+      <y>210</y>
+      <w>245</w>
+      <h>308</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>330.0;10.0;10.0;10.0;10.0;420.0;70.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>665</x>
+      <y>105</y>
+      <w>147</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>DIETAS
+--
+id_dieta
+dia
+comida_1
+comida_2
+comida_3
+comida_4
+objetivo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>665</x>
+      <y>224</y>
+      <w>147</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>EJERCICIOS
+--
+id_ejercicio
+dia
+ejercicio_1
+ejercicio_2
+ejercicio_3
+ejercicio_4
+ejercicio_5
+ejercicio_6
+ejercicio_7
+ejercicio_8
+ejercicio_9
+ejercicio_10
+objetivo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>189</y>
+      <w>329</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>450.0;10.0;90.0;10.0;90.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>210</y>
+      <w>329</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>450.0;250.0;60.0;250.0;60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
